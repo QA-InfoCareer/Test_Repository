@@ -10,6 +10,8 @@ public class LaunchURL {
 		driver.get("www.google.com");
 		String text = driver.getTitle();
 		System.out.println(text);
+		driver.getPageSource();
+		
 
 	}
 
